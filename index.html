@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Carlos Jesús Méndez Coria</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e9ecef;
+      color: #333;
+    }
+    .cv-container {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: #fff;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .left-column {
+      width: 35%;
+      background: #2c3e50;
+      color: #fff;
+      padding: 40px 30px;
+      box-sizing: border-box;
+    }
+    .right-column {
+      width: 65%;
+      padding: 40px;
+      box-sizing: border-box;
+    }
+    h1 { margin-top: 0; font-size: 2.4em; color: #fff; line-height: 1.1; }
+    h2 { font-size: 1.1em; font-weight: 400; color: #1abc9c; margin-top: 10px; margin-bottom: 30px;}
+    h3 { border-bottom: 2px solid #1abc9c; padding-bottom: 5px; color: #2c3e50; margin-top: 30px; font-size: 1.4em;}
+    .left-column h3 { border-bottom: 2px solid #1abc9c; color: #fff; }
+    p, ul, li { line-height: 1.6; }
+    ul { padding-left: 20px; }
+    .contact-info p { margin: 8px 0; font-size: 0.95em; }
+    .skill-list, .lang-list { list-style: none; padding: 0; }
+    .skill-list li, .lang-list li { background: #34495e; margin-bottom: 8px; padding: 8px 12px; border-radius: 4px; font-size: 0.9em;}
+    .experience-item, .education-item { margin-bottom: 25px; }
+    .item-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px;}
+    .item-title { font-weight: bold; font-size: 1.15em; color: #2c3e50; }
+    .item-date { font-size: 0.9em; color: #7f8c8d; font-weight: bold; }
+    .cert-links-list { list-style: none; padding: 0; }
+    .cert-links-list li { margin-bottom: 12px; background: #f8f9fa; padding: 12px; border-left: 4px solid #1abc9c; border-radius: 0 4px 4px 0;}
+    .cert-links-list a { color: #2c3e50; text-decoration: none; font-weight: bold; display: block; }
+    .cert-links-list a:hover { color: #1abc9c; }
+    
+    @media (max-width: 768px) {
+      .left-column, .right-column { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <!-- Columna Izquierda -->
+    <div class="left-column">
+      <h1>Carlos Jesús<br>Méndez Coria</h1>
+      <h2>Estudiante de Ingeniería de Software</h2>
+
+      <div class="contact-info">
+        <h3>Contacto</h3>
+        <p>📍 Coscomatepec, Veracruz, México</p>
+        <p>✉️ cm332306@gmail.com</p>
+        <p>🔗 github.com/NullAceBeta</p>
+      </div>
+
+      <div class="skills">
+        <h3>Habilidades</h3>
+        <ul class="skill-list">
+          <li>Frontend (HTML, CSS)</li>
+          <li>NodeJS & JavaScript</li>
+          <li>Python (Pandas, scikit-learn)</li>
+          <li>Git & Configuración Linux</li>
+          <li>Arquitectura de Software (UML)</li>
+          <li>Data Analysis & Machine Learning</li>
+        </ul>
+      </div>
+
+      <div class="languages">
+        <h3>Idiomas</h3>
+        <ul class="lang-list">
+          <li>Español (Nativo)</li>
+          <li>Inglés</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Columna Derecha -->
+    <div class="right-column">
+      <div class="summary">
+        <h3>Perfil</h3>
+        <p>Estudiante de Ingeniería de Software en la Universidad Veracruzana. Capacidad comprobada en el desarrollo frontend, backend con NodeJS y análisis de datos en Python. Experiencia práctica en la evaluación de usabilidad de interfaces y diseño de arquitectura de sistemas complejos.</p>
+      </div>
+
+      <div class="experience">
+        <h3>Proyectos y Experiencia Práctica</h3>
+        
+        <div class="experience-item">
+          <div class="item-header">
+            <span class="item-title">Sistema de Evaluación para Primaria</span>
+            <span class="item-date">Sep 2026</span>
+          </div>
+          <p>Modelado de diagramas de actividad UML. Diseño detallado de flujos de procesos para cálculos automatizados de calificaciones, categorización de desempeño de alumnos y estructuración de evaluaciones diagnósticas.</p>
+        </div>
+
+        <div class="experience-item">
+          <div class="item-header">
+            <span class="item-title">UV Move</span>
+            <span class="item-date">Ago 2026 - Sep 2026</span>
+          </div>
+          <p>Desarrollo y entrega de modelos de arquitectura de software y diagramas de componentes UML. Gestión colaborativa del código utilizando flujos de control de versiones con Git y ejecución de pruebas unitarias.</p>
+        </div>
+
+        <div class="experience-item">
+          <div class="item-header">
+            <span class="item-title">Sistema POS para Restaurantes</span>
+            <span class="item-date">Ago 2026</span>
+          </div>
+          <p>Evaluación profunda de usabilidad de la interfaz gráfica de usuario aplicando heurísticas de Nielsen para la optimización de la experiencia.</p>
+        </div>
+      </div>
+
+      <div class="education">
+        <h3>Educación</h3>
+        <div class="education-item">
+          <div class="item-header">
+            <span class="item-title">Ingeniería de Software</span>
+            <span class="item-date">Actualidad</span>
+          </div>
+          <p>Universidad Veracruzana (UV)</p>
+        </div>
+      </div>
+
+      <div class="certificates">
+        <h3>Certificados</h3>
+        <p>Credenciales verificables de completación en plataformas de aprendizaje:</p>
+        <ul class="cert-links-list">
+          <li>
+            <a href="https://res.cloudinary.com/dzjnywhya/image/upload/v1790530490/Carlos_Jes%C3%BAs_M%C3%A9ndez_Coria_-_Intermediate_Machine_Learning_avvays.png" target="_blank" rel="noopener noreferrer">
+              &#128279; Intermediate Machine Learning
+            </a>
+          </li>
+          <li>
+            <a href="https://res.cloudinary.com/dzjnywhya/image/upload/v1790530440/Carlos_Jes%C3%BAs_M%C3%A9ndez_Coria_-_Intro_to_Machine_Learning_weknka.png" target="_blank" rel="noopener noreferrer">
+              &#128279; Intro to Machine Learning
+            </a>
+          </li>
+          <li>
+            <a href="https://res.cloudinary.com/dzjnywhya/image/upload/v1788795055/Carlos_Jes%C3%BAs_M%C3%A9ndez_Coria_-_Python_urmy60.png" target="_blank" rel="noopener noreferrer">
+              &#128279; Python
+            </a>
+          </li>
+          <li>
+            <a href="https://res.cloudinary.com/dzjnywhya/image/upload/v1788795030/Carlos_Jes%C3%BAs_M%C3%A9ndez_Coria_-_Pandas_r6jmah.png" target="_blank" rel="noopener noreferrer">
+              &#128279; Pandas
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
